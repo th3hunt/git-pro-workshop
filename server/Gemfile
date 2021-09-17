@@ -1,0 +1,18 @@
+# Gemfile
+source "https://rubygems.org"
+
+ruby '2.7.3'
+
+gem 'foreman'
+gem 'puma'
+gem 'sinatra', require: 'sinatra/base'
+gem 'sinatra-contrib', require: false
+
+group :development, :test do
+  gem 'pry'
+end
+
+group :test do
+  gem "minitest"
+end
+

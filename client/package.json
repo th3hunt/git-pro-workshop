@@ -1,0 +1,9 @@
+{
+  "name": "git-pro-client",
+  "description": "Git Pro: Workshop",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stratos Pavlakis",
+  "license": "UNLICENSED"
+}
