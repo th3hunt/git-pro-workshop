@@ -5,6 +5,7 @@ class App < Sinatra::Base
   register Sinatra::Contrib
 
   get '/' do
+    print "Hello world"
     headers 'Access-Control-Allow-Origin' => '*'
     question = params[:q] || "?"
     dt = DeepThought.new
