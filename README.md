@@ -1,6 +1,6 @@
 # Git Pro
 
-> Workshop project
+> Workshop project! Supported by Endeavor.
 
 ## The conventional commit
 
